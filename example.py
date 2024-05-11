@@ -11,17 +11,6 @@ st.set_page_config(
 st.title("Google Analytics :chart:")
 
 
-st_gtag(
-    key="gtag_send_event_a",
-    id="G-8H46WZXW14",
-    event_name="app_main_page",
-    params={
-        "event_category": "test_category_a",
-        "event_label": "test_label_a",
-        "value": 97,
-    },
-)
-
 if st.button("Send Event A"):
     st_gtag(
         key="gtag_send_event_b",
