@@ -13,7 +13,7 @@ st.title("Google Analytics :chart:")
 
 st_gtag(
     key="gtag_send_event_a",
-    id="G-LDSKH1L6V2",
+    id="G-8H46WZXW14",
     event_name="app_main_page",
     params={
         "event_category": "test_category_a",
@@ -25,7 +25,7 @@ st_gtag(
 if st.button("Send Event A"):
     st_gtag(
         key="gtag_send_event_b",
-        id="G-LDSKH1L6V2",
+        id="G-8H46WZXW14",
         event_name="send_event_button",
         params={
             "event_category": "test_category_b",

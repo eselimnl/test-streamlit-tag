@@ -8,8 +8,8 @@ long_description = (this_directory / "README.md").read_text()
 setuptools.setup(
     name="streamlit-gtag",
     version="0.0.1",
-    author="Gabriel Menezes",
-    author_email="dmenezes.gabriel@gmail.com",
+    author="",
+    author_email="",
     description="""
         Streamlit component that allows you to do integrate google analytics
     """,
