@@ -21,7 +21,7 @@ def cookie_banner():
         placeholder = st.empty()
 
         # Define the cookie banner layout
-        col0, col1, col2, col3, col4 = placeholder.columns([5, 2.5, 0.5, 0.5, 5])
+        col0, col1, col2, col3, col4 = placeholder.columns([2, 3, 1, 1, 3])
 
         # Display cookie message in the first column
         col1.write("We use cookies to improve your experience on our website.")
